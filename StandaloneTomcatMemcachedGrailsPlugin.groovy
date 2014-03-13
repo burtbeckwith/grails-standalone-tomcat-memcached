@@ -7,7 +7,7 @@ class StandaloneTomcatMemcachedGrailsPlugin {
 
 	private final Logger log = LoggerFactory.getLogger('grails.plugin.standalone.StandaloneTomcatMemcachedGrailsPlugin')
 
-	String version = '0.1'
+	String version = '0.2'
 	String grailsVersion = '2.0 > *'
 	List pluginExcludes = [
 		'docs/**',
