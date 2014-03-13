@@ -15,14 +15,14 @@ grails.project.dependency.resolution = {
 
 	dependencies {
 		
-		compile 'de.javakaffee.msm:memcached-session-manager:1.6.4', {
+		compile 'de.javakaffee.msm:memcached-session-manager:1.8.1', {
 			excludes 'CouchbaseMock', 'annotations', 'catalina', 'catalina-ha', 'couchbase-client', 'coyote',
 			         'hibernate-annotations', 'hibernate-core', 'hsqldb', 'httpclient', 'javassist',
 			         'jettison', 'jmemcached-core', 'jsr305', 'mockito-core', 'netty', 'servlet-api',
 			         'slf4j-simple', 'spymemcached', 'testng'
 		}
 
-		compile 'de.javakaffee.msm:memcached-session-manager-tc7:1.6.4', {
+		compile 'de.javakaffee.msm:memcached-session-manager-tc7:1.8.1', {
 			excludes 'CouchbaseMock', 'annotations', 'hibernate-annotations', 'hibernate-core', 'hsqldb',
 			         'httpclient', 'javassist', 'jettison', 'jmemcached-core', 'jsr305', 'memcached-session-manager',
 			         'mockito-core', 'netty', 'slf4j-simple', 'testng', 'tomcat-catalina', 'tomcat-catalina-ha',
@@ -54,6 +54,9 @@ grails.project.dependency.resolution = {
 			         'jboss-marshalling', 'jboss-marshalling-river', 'jboss-marshalling-serial', 'junit', 'log4j',
 			         'org.osgi.compendium', 'org.osgi.core', 'protobuf-java', 'servlet-api', 'slf4j-api', 'slf4j-simple'
 		}
+
+    build 'org.apache.geronimo.ext.tomcat:catalina:7.0.39.2'
+
 	}
 
 	plugins {
