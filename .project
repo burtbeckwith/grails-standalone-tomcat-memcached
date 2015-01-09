@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>grails-standalone-tomcat-memcached</name>
+	<name>standalone-tomcat-memcached</name>
 	<comment></comment>
 	<projects>
 	</projects>
